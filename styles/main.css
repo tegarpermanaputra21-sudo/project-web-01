@@ -34,6 +34,14 @@ nav a {
     letter-spacing: -1px;
     cursor: pointer;
 }
+nav .semi-bold {
+    padding: 6px 10px;
+    transition: all 0.1s;
+    border-bottom: 1px solid #000;
+}
+nav .semi-bold:hover {
+    border-bottom: 2px solid #000;
+}
 nav .bold  {
     font-weight: 800;
     font-size: 22px;
@@ -69,11 +77,6 @@ main .another-nav {
     padding: 0 0 10px 0;
     border-bottom: 1.5px solid #c6c6c6;
     margin-bottom: 60px;
-}
-main .another-nav a {
-    font-size: 16px;
-    text-decoration: none;
-    color: #a2a1a1;
 }
 main .another-nav a {
     font-size: 22px;
@@ -134,11 +137,10 @@ main .card .desc .theme a:hover {
     html, body {
         overflow-x: hidden;
     }
-    nav a {
+    nav .semi-bold {
         display: none;
     }
     nav .bold {
-        display: flex;
         transform: scaleY(1.2);
     }
 
