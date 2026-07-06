@@ -96,7 +96,6 @@ main .card-wrapper {
 }
 main .card {
     flex: 1 1 calc(50% - 20px);
-    
 }
 main .card img {
     width: 100%;
@@ -114,17 +113,27 @@ main .card .desc .theme {
     display: flex;
     gap: 10px;
 }
-main .card .desc .theme p {
+main .card .desc .theme a {
     margin-top: 20px;
     font-size: 12px;
+    text-decoration: none;
     padding: 4px 10px;
     color: #000;
     border: 1.5px solid #a2a1a1;
     border-radius: 8px;
+    transition: all 0.1s;
+}
+main .card .desc .theme a:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1.5px solid #000;
 }
 
 
 @media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+    }
     nav a {
         display: none;
     }
@@ -147,5 +156,9 @@ main .card .desc .theme p {
     }
     main .another-nav a {
         font-size: 16px;
+    }
+
+    main .card {
+        flex: 1 1 100%;
     }
 }
