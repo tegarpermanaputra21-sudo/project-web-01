@@ -42,7 +42,7 @@ nav .bold  {
 
 main {
     width: 95%;
-    margin: auto;
+    margin: 0 auto 60px;
 }
 main .hero {
     display: flex;
