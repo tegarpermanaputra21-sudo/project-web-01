@@ -46,7 +46,7 @@ main {
 }
 main .hero {
     display: flex;
-    margin: 160px auto 60px;
+    margin: 160px auto 80px;
     gap: 25vw;
     flex-wrap: wrap;
     align-items: center;
@@ -60,4 +60,29 @@ main .hero p {
     font-size: 15px;
     color: #666;
     max-width: 400px;
+}
+
+main .another-nav {
+    display: flex;
+    gap: 3vw;
+    padding: 0 0 10px 0;
+    border-bottom: 1.5px solid #c6c6c6;
+}
+main .another-nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #a2a1a1;
+}
+main .another-nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #a2a1a1;
+    font-weight: 600;
+    transition: all 0.1s;
+}
+main .another-nav a:hover {
+    color: #000;
+}
+main .another-nav .active {
+    color: #000;
 }
