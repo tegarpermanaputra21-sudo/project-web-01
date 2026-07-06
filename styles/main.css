@@ -46,7 +46,7 @@ main {
 }
 main .hero {
     display: flex;
-    margin: 160px auto 80px;
+    margin: 160px auto 90px;
     gap: 25vw;
     flex-wrap: wrap;
     align-items: center;
@@ -60,6 +60,7 @@ main .hero p {
     font-size: 15px;
     color: #666;
     max-width: 400px;
+    vertical-align: bottom;
 }
 
 main .another-nav {
@@ -74,7 +75,7 @@ main .another-nav a {
     color: #a2a1a1;
 }
 main .another-nav a {
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
     color: #a2a1a1;
     font-weight: 600;
