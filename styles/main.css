@@ -122,3 +122,26 @@ main .card .desc .theme p {
     border: 1.5px solid #a2a1a1;
     border-radius: 8px;
 }
+
+
+@media (max-width: 768px) {
+    nav a {
+        display: none;
+    }
+    nav .bold {
+        display: flex;
+        transform: scaleY(1.2);
+    }
+
+    main .hero {
+        gap: 5vh;
+        margin: 100px auto 20px;
+    }
+    main .hero h1 {
+        font-size: 60px;
+    }
+    
+    main .another-nav a {
+        font-size: 16px;
+    }
+}
