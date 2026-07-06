@@ -134,13 +134,17 @@ main .card .desc .theme p {
     }
 
     main .hero {
-        gap: 5vh;
-        margin: 100px auto 20px;
+        gap: 2vh;
+        margin: 100px auto 60px;
     }
     main .hero h1 {
         font-size: 60px;
     }
     
+    main .another-nav {
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
     main .another-nav a {
         font-size: 16px;
     }
