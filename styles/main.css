@@ -13,10 +13,27 @@
 * {
     margin: 0;
     padding: 0;
-    width: 100%;
     box-sizing: border-box;
 }
 html, body {
     font-family: 'AlteHaasGrotesk', sans-serif;
     font-weight: normal;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    vertical-align: middle;
+}
+nav a {
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    margin: 10px 0 0 0;
+}
+nav .bold  {
+    font-weight: 800;
+    font-size: 22px;
+    transform: scaleY(2);
 }
