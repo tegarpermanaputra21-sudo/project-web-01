@@ -68,6 +68,7 @@ main .another-nav {
     gap: 3vw;
     padding: 0 0 10px 0;
     border-bottom: 1.5px solid #c6c6c6;
+    margin-bottom: 60px;
 }
 main .another-nav a {
     font-size: 16px;
@@ -86,4 +87,19 @@ main .another-nav a:hover {
 }
 main .another-nav .active {
     color: #000;
+}
+
+main .card-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+main .card {
+    flex: 1 1 calc(50% - 20px);
+    
+}
+main .card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
