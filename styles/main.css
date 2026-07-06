@@ -31,9 +31,33 @@ nav a {
     text-decoration: none;
     color: #000;
     margin: 10px 0 0 0;
+    letter-spacing: -1px;
+    cursor: pointer;
 }
 nav .bold  {
     font-weight: 800;
     font-size: 22px;
     transform: scaleY(2);
+}
+
+main {
+    width: 95%;
+    margin: auto;
+}
+main .hero {
+    display: flex;
+    margin: 160px auto 60px;
+    gap: 25vw;
+    flex-wrap: wrap;
+    align-items: center;
+}
+main .hero h1 {
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: -5px;
+}
+main .hero p {
+    font-size: 15px;
+    color: #666;
+    max-width: 400px;
 }
