@@ -35,6 +35,9 @@ nav a {
     letter-spacing: -1px;
     cursor: pointer;
 }
+nav #mark-nav {
+    border-bottom: 2px solid #000;
+}
 nav .semi-bold {
     padding: 6px 10px;
     transition: all 0.1s;
