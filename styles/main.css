@@ -1,170 +1,171 @@
 @font-face {
-    font-family: 'AlteHaasGrotesk';
-    src: url('fonts/AlteHaasGroteskRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "AlteHaasGrotesk";
+  src: url("fonts/AlteHaasGroteskRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'AlteHaasGrotesk';
-    src: url('fonts/AlteHaasGroteskRegular.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "AlteHaasGrotesk";
+  src: url("fonts/AlteHaasGroteskRegular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html, body {
-    scroll-behavior: smooth;
-    font-family: 'AlteHaasGrotesk', sans-serif;
-    font-weight: normal;
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "AlteHaasGrotesk", sans-serif;
+  font-weight: normal;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
 }
 nav a {
-    font-size: 13px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #000;
-    margin: 10px 0 0 0;
-    letter-spacing: -1px;
-    cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  margin: 10px 0 0 0;
+  letter-spacing: -1px;
+  cursor: pointer;
 }
 nav #mark-nav {
-    border-bottom: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 nav .semi-bold {
-    padding: 6px 10px;
-    transition: all 0.1s;
-    border-bottom: 1px solid #000;
+  padding: 6px 10px;
+  transition: all 0.1s;
+  border-bottom: 1px solid #000;
 }
 nav .semi-bold:hover {
-    border-bottom: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
-nav .bold  {
-    font-weight: 800;
-    font-size: 22px;
-    transform: scaleY(2);
+nav .bold {
+  font-weight: 800;
+  font-size: 22px;
+  transform: scaleY(2);
 }
 
 main {
-    width: 95%;
-    margin: 0 auto 60px;
+  width: 95%;
+  margin: 0 auto 60px;
 }
 main .hero {
-    display: flex;
-    margin: 160px auto 90px;
-    gap: 25vw;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  margin: 160px auto 90px;
+  gap: 25vw;
+  flex-wrap: wrap;
+  align-items: center;
 }
 main .hero h1 {
-    font-size: 90px;
-    font-weight: 700;
-    letter-spacing: -5px;
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: -5px;
 }
 main .hero p {
-    font-size: 15px;
-    color: #666;
-    max-width: 400px;
-    vertical-align: bottom;
+  font-size: 15px;
+  color: #666;
+  max-width: 400px;
+  vertical-align: bottom;
 }
 
 main .another-nav {
-    display: flex;
-    gap: 3vw;
-    padding: 20px 0 10px 0;
-    border-bottom: 1.5px solid #c6c6c6;
-    margin-bottom: 60px;
+  display: flex;
+  gap: 3vw;
+  padding: 20px 0 10px 0;
+  border-bottom: 1.5px solid #c6c6c6;
+  margin-bottom: 60px;
 }
 main .another-nav a {
-    font-size: 22px;
-    text-decoration: none;
-    color: #a2a1a1;
-    font-weight: 600;
-    transition: all 0.1s;
+  font-size: 22px;
+  text-decoration: none;
+  color: #a2a1a1;
+  font-weight: 600;
+  transition: all 0.1s;
 }
 main .another-nav a:hover {
-    color: #000;
+  color: #000;
 }
 main .another-nav .active {
-    color: #000;
+  color: #000;
 }
 
 main .card-wrapper {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 main .card {
-    flex: 1 1 calc(50% - 20px);
+  flex: 1 1 calc(50% - 20px);
 }
 main .card img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 main .card .desc {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 main .card .desc p {
-    color: #a2a1a1;
-    margin: 10px 0;
+  color: #a2a1a1;
+  margin: 10px 0;
 }
 main .card .desc .theme {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 main .card .desc .theme a {
-    margin-top: 20px;
-    font-size: 12px;
-    text-decoration: none;
-    padding: 4px 10px;
-    color: #000;
-    border: 1.5px solid #a2a1a1;
-    border-radius: 8px;
-    transition: all 0.1s;
+  margin-top: 20px;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 4px 10px;
+  color: #000;
+  border: 1.5px solid #a2a1a1;
+  border-radius: 8px;
+  transition: all 0.1s;
 }
 main .card .desc .theme a:hover {
-    background-color: #000;
-    color: #fff;
-    border: 1.5px solid #000;
+  background-color: #000;
+  color: #fff;
+  border: 1.5px solid #000;
 }
 
-
 @media (max-width: 768px) {
-    html, body {
-        overflow-x: hidden;
-    }
-    nav .semi-bold {
-        display: none;
-    }
-    nav .bold {
-        transform: scaleY(1.2);
-    }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  nav .semi-bold {
+    display: none;
+  }
+  nav .bold {
+    transform: scaleY(1.2);
+  }
 
-    main .hero {
-        gap: 2vh;
-        margin: 100px auto 60px;
-    }
-    main .hero h1 {
-        font-size: 60px;
-    }
-    
-    main .another-nav {
-        margin-top: 40px;
-        flex-wrap: wrap;
-    }
-    main .another-nav a {
-        font-size: 16px;
-    }
+  main .hero {
+    gap: 2vh;
+    margin: 100px auto 60px;
+  }
+  main .hero h1 {
+    font-size: 60px;
+  }
 
-    main .card {
-        flex: 1 1 100%;
-    }
+  main .another-nav {
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  main .another-nav a {
+    font-size: 16px;
+  }
+
+  main .card {
+    flex: 1 1 100%;
+  }
 }
